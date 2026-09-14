@@ -98,4 +98,9 @@ app.all('/api/versions/:id/ppt',wrap(async(req,res)=>{
 app.use(express.static(path.join(root,'public')));
 app.get('/vendor/html2canvas.js',(_,res)=>res.sendFile(path.join(root,'node_modules/html2canvas/dist/html2canvas.min.js')));
 app.use((err,req,res,next)=>{console.error(err.message);res.status(400).json({error:err.code==='LIMIT_FILE_SIZE'?'파일은 2MB 이하여야 합니다.':err.message||'요청 처리 중 오류가 발생했습니다.'});});
-app.listen(Number(process.env.PORT||4317),process.env.HOST||'127.0.0.1',()=>console.log(`Screen Studio: http://${process.env.HOST||'127.0.0.1'}:${process.env.PORT||4317}`));
+const PORT = Number(process.env.PORT || 4317);
+const HOST = process.env.HOST || '0.0.0.0';
+
+app.listen(PORT, HOST, () => {
+  console.log(`Screen Studio running on ${HOST}:${PORT}`);
+});
