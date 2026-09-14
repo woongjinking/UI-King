@@ -1,0 +1,1 @@
+{"name":"screen-studio","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node --env-file-if-exists=.env server.mjs","test":"node --test test/*.test.mjs"},"dependencies":{"exceljs":"^4.4.0","express":"^5.1.0","html2canvas":"^1.4.1","multer":"^2.0.2","pptxgenjs":"^4.0.1"},"devDependencies":{"jszip":"^3.10.1"},"overrides":{"uuid":"11.1.1"}}

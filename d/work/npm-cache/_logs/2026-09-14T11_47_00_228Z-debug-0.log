@@ -1,0 +1,21 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio\.npmrc
+5 silly config load:file:C:\Users\USER\.npmrc
+6 silly config load:file:C:\Users\USER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ping
+8 verbose argv "ping" "--cache" "../../work/npm-cache" "--fetch-retries" "0" "--fetch-timeout" "15000"
+9 verbose logfile logs-max:10 dir:C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_47_00_228Z-
+10 verbose logfile C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_47_00_228Z-debug-0.log
+11 silly logfile done cleaning log files
+12 notice PING https://registry.npmjs.org/
+13 http fetch GET 200 https://registry.npmjs.org/-/ping 186ms
+14 notice PONG 188ms
+15 verbose cwd C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio
+16 verbose os Windows_NT 10.0.19045
+17 verbose node v24.18.0
+18 verbose npm  v11.16.0
+19 verbose exit 0
+20 info ok

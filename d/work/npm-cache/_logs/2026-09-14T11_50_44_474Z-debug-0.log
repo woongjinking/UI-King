@@ -1,0 +1,222 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio\.npmrc
+5 silly config load:file:C:\Users\USER\.npmrc
+6 silly config load:file:C:\Users\USER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "../../work/npm-cache" "--fetch-retries" "0" "--fetch-timeout" "30000"
+9 verbose logfile logs-max:10 dir:C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_50_44_474Z-
+10 verbose logfile C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_50_44_474Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest uuid@11.1.1
+15 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+16 http cache https://registry.npmjs.org/uuid 66ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/uuid set size:260936 disposed:false
+18 silly placeDep ROOT uuid@11.1.1 REPLACE for: exceljs@4.4.0 want: 11.1.1
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\uuid',
+19 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid',
+19 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid.cmd',
+19 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid.ps1'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\uuid': 'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.uuid-HLcj9ms7',
+20 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid': 'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\.uuid-MBmexxKK',
+20 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\.uuid.cmd-KsJtWIh8',
+20 silly reify   'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\USER\\Documents\\Codex\\2026-09-14\\d\\outputs\\screen-studio\\node_modules\\.bin\\.uuid.ps1-UxZE9wgh'
+20 silly reify }
+21 silly audit bulk request {
+21 silly audit   '@fast-csv/format': [ '4.3.5' ],
+21 silly audit   '@fast-csv/parse': [ '4.3.6' ],
+21 silly audit   '@types/node': [ '14.18.63', '22.20.2' ],
+21 silly audit   accepts: [ '2.0.0' ],
+21 silly audit   'append-field': [ '1.0.0' ],
+21 silly audit   archiver: [ '5.3.2' ],
+21 silly audit   'archiver-utils': [ '2.1.0', '3.0.4' ],
+21 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+21 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+21 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+21 silly audit   async: [ '3.2.6' ],
+21 silly audit   'balanced-match': [ '1.0.2' ],
+21 silly audit   'base64-js': [ '1.5.1' ],
+21 silly audit   'big-integer': [ '1.6.52' ],
+21 silly audit   binary: [ '0.3.0' ],
+21 silly audit   bl: [ '4.1.0' ],
+21 silly audit   bluebird: [ '3.4.7' ],
+21 silly audit   'body-parser': [ '2.3.0' ],
+21 silly audit   'content-type': [ '2.1.0', '1.0.5' ],
+21 silly audit   'brace-expansion': [ '1.1.18', '2.1.4' ],
+21 silly audit   buffer: [ '5.7.1' ],
+21 silly audit   'buffer-crc32': [ '0.2.13' ],
+21 silly audit   'buffer-indexof-polyfill': [ '1.0.2' ],
+21 silly audit   buffers: [ '0.1.1' ],
+21 silly audit   busboy: [ '1.6.0' ],
+21 silly audit   bytes: [ '3.1.2' ],
+21 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+21 silly audit   'call-bound': [ '1.0.4' ],
+21 silly audit   chainsaw: [ '0.1.0' ],
+21 silly audit   'compress-commons': [ '4.1.2' ],
+21 silly audit   'concat-map': [ '0.0.1' ],
+21 silly audit   'content-disposition': [ '1.1.0' ],
+21 silly audit   cookie: [ '0.7.2' ],
+21 silly audit   'cookie-signature': [ '1.2.2' ],
+21 silly audit   'core-util-is': [ '1.0.3' ],
+21 silly audit   'crc-32': [ '1.2.2' ],
+21 silly audit   'crc32-stream': [ '4.0.3' ],
+21 silly audit   dayjs: [ '1.11.23' ],
+21 silly audit   debug: [ '4.4.3' ],
+21 silly audit   depd: [ '2.0.0' ],
+21 silly audit   'dunder-proto': [ '1.0.1' ],
+21 silly audit   duplexer2: [ '0.1.4' ],
+21 silly audit   'ee-first': [ '1.1.1' ],
+21 silly audit   encodeurl: [ '2.0.0' ],
+21 silly audit   'end-of-stream': [ '1.4.5' ],
+21 silly audit   'es-define-property': [ '1.0.1' ],
+21 silly audit   'es-errors': [ '1.3.0' ],
+21 silly audit   'es-object-atoms': [ '1.1.2' ],
+21 silly audit   'escape-html': [ '1.0.3' ],
+21 silly audit   etag: [ '1.8.1' ],
+21 silly audit   exceljs: [ '4.4.0' ],
+21 silly audit   express: [ '5.2.1' ],
+21 silly audit   'fast-csv': [ '4.3.6' ],
+21 silly audit   finalhandler: [ '2.1.1' ],
+21 silly audit   forwarded: [ '0.2.0' ],
+21 silly audit   fresh: [ '2.0.0' ],
+21 silly audit   'fs-constants': [ '1.0.0' ],
+21 silly audit   'fs.realpath': [ '1.0.0' ],
+21 silly audit   fstream: [ '1.0.12' ],
+21 silly audit   'function-bind': [ '1.1.2' ],
+21 silly audit   'get-intrinsic': [ '1.3.0' ],
+21 silly audit   'get-proto': [ '1.0.1' ],
+21 silly audit   glob: [ '7.2.3' ],
+21 silly audit   gopd: [ '1.2.0' ],
+21 silly audit   'graceful-fs': [ '4.2.11' ],
+21 silly audit   'has-symbols': [ '1.1.0' ],
+21 silly audit   hasown: [ '2.0.4' ],
+21 silly audit   'http-errors': [ '2.0.1' ],
+21 silly audit   https: [ '1.0.0' ],
+21 silly audit   'iconv-lite': [ '0.7.3' ],
+21 silly audit   ieee754: [ '1.2.1' ],
+21 silly audit   'image-size': [ '1.2.1' ],
+21 silly audit   immediate: [ '3.0.6' ],
+21 silly audit   inflight: [ '1.0.6' ],
+21 silly audit   inherits: [ '2.0.4' ],
+21 silly audit   'ipaddr.js': [ '1.9.1' ],
+21 silly audit   'is-promise': [ '4.0.0' ],
+21 silly audit   isarray: [ '1.0.0' ],
+21 silly audit   jszip: [ '3.10.2' ],
+21 silly audit   lazystream: [ '1.0.1' ],
+21 silly audit   lie: [ '3.3.0' ],
+21 silly audit   listenercount: [ '1.0.1' ],
+21 silly audit   'lodash.defaults': [ '4.2.0' ],
+21 silly audit   'lodash.difference': [ '4.5.0' ],
+21 silly audit   'lodash.escaperegexp': [ '4.1.2' ],
+21 silly audit   'lodash.flatten': [ '4.4.0' ],
+21 silly audit   'lodash.groupby': [ '4.6.0' ],
+21 silly audit   'lodash.isboolean': [ '3.0.3' ],
+21 silly audit   'lodash.isequal': [ '4.5.0' ],
+21 silly audit   'lodash.isfunction': [ '3.0.9' ],
+21 silly audit   'lodash.isnil': [ '4.0.0' ],
+21 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+21 silly audit   'lodash.isundefined': [ '3.0.1' ],
+21 silly audit   'lodash.union': [ '4.6.0' ],
+21 silly audit   'lodash.uniq': [ '4.5.0' ],
+21 silly audit   'math-intrinsics': [ '1.1.0' ],
+21 silly audit   'media-typer': [ '1.1.1', '0.3.0' ],
+21 silly audit   'merge-descriptors': [ '2.0.0' ],
+21 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+21 silly audit   'mime-types': [ '3.0.2', '2.1.35' ],
+21 silly audit   minimatch: [ '3.1.5', '5.1.9' ],
+21 silly audit   minimist: [ '1.2.8' ],
+21 silly audit   mkdirp: [ '0.5.6' ],
+21 silly audit   ms: [ '2.1.3' ],
+21 silly audit   multer: [ '2.4.0' ],
+21 silly audit   'type-is': [ '1.6.18', '2.1.0' ],
+21 silly audit   negotiator: [ '1.1.0' ],
+21 silly audit   'normalize-path': [ '3.0.0' ],
+21 silly audit   'object-inspect': [ '1.13.4' ],
+21 silly audit   'on-finished': [ '2.4.1' ],
+21 silly audit   once: [ '1.4.0' ],
+21 silly audit   pako: [ '1.0.11' ],
+21 silly audit   parseurl: [ '1.3.3' ],
+21 silly audit   'path-is-absolute': [ '1.0.1' ],
+21 silly audit   'path-to-regexp': [ '8.4.2' ],
+21 silly audit   pptxgenjs: [ '4.0.1' ],
+21 silly audit   'process-nextick-args': [ '2.0.1' ],
+21 silly audit   'proxy-addr': [ '2.0.7' ],
+21 silly audit   qs: [ '6.16.0' ],
+21 silly audit   queue: [ '6.0.2' ],
+21 silly audit   'range-parser': [ '1.3.0' ],
+21 silly audit   'raw-body': [ '3.0.2' ],
+21 silly audit   'readdir-glob': [ '1.1.3' ],
+21 silly audit   rimraf: [ '2.7.1' ],
+21 silly audit   router: [ '2.2.0' ],
+21 silly audit   'safer-buffer': [ '2.1.2' ],
+21 silly audit   saxes: [ '5.0.1' ],
+21 silly audit   send: [ '1.2.1' ],
+21 silly audit   'serve-static': [ '2.2.1' ],
+21 silly audit   setimmediate: [ '1.0.5' ],
+21 silly audit   setprototypeof: [ '1.2.0' ],
+21 silly audit   'side-channel': [ '1.1.1' ],
+21 silly audit   'side-channel-list': [ '1.0.1' ],
+21 silly audit   'side-channel-map': [ '1.0.1' ],
+21 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+21 silly audit   statuses: [ '2.0.2' ],
+21 silly audit   streamsearch: [ '1.1.0' ],
+21 silly audit   'tar-stream': [ '2.2.0' ],
+21 silly audit   tmp: [ '0.2.7' ],
+21 silly audit   toidentifier: [ '1.0.1' ],
+21 silly audit   traverse: [ '0.3.9' ],
+21 silly audit   'undici-types': [ '6.21.0' ],
+21 silly audit   unpipe: [ '1.0.0' ],
+21 silly audit   unzipper: [ '0.10.14' ],
+21 silly audit   'util-deprecate': [ '1.0.2' ],
+21 silly audit   vary: [ '1.1.2' ],
+21 silly audit   wrappy: [ '1.0.2' ],
+21 silly audit   xmlchars: [ '2.2.0' ],
+21 silly audit   'zip-stream': [ '4.1.1' ],
+21 silly audit   uuid: [ '11.1.1' ]
+21 silly audit }
+22 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-11.1.1.tgz 0ms (cache hit)
+23 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-11.1.1.tgz. Extracting by manifest.
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 202ms
+25 silly audit report {
+25 silly audit report   'image-size': [
+25 silly audit report     {
+25 silly audit report       id: 1138808,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-w3rx-r6r6-pgpr',
+25 silly audit report       title: 'image-size: ICNS parser allows denial of service through an infinite loop',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<=2.0.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1138809,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-5p2g-fcmc-qvqq',
+25 silly audit report       title: 'image-size: JXL and HEIF parsers allow denial of service through infinite loops',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<=2.0.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ]
+25 silly audit report }
+26 silly packumentCache corgi:https://registry.npmjs.org/image-size cache-miss
+27 http cache https://registry.npmjs.org/image-size 9ms (cache hit)
+28 silly packumentCache corgi:https://registry.npmjs.org/image-size set size:76086 disposed:false
+29 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs cache-miss
+30 http cache https://registry.npmjs.org/pptxgenjs 5ms (cache hit)
+31 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs set size:72224 disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-11.1.1.tgz 301ms (cache miss)
+33 silly CHANGE node_modules/uuid
+34 verbose cwd C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio
+35 verbose os Windows_NT 10.0.19045
+36 verbose node v24.18.0
+37 verbose npm  v11.16.0
+38 verbose exit 0
+39 info ok

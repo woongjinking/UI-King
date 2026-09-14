@@ -1,0 +1,217 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio\.npmrc
+5 silly config load:file:C:\Users\USER\.npmrc
+6 silly config load:file:C:\Users\USER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm audit
+8 verbose argv "audit" "--json" "--cache" "../../work/npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_48_15_889Z-
+10 verbose logfile C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T11_48_15_889Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly audit bulk request {
+13 silly audit   '@fast-csv/format': [ '4.3.5' ],
+13 silly audit   '@fast-csv/parse': [ '4.3.6' ],
+13 silly audit   '@types/node': [ '14.18.63', '22.20.2' ],
+13 silly audit   accepts: [ '2.0.0' ],
+13 silly audit   'append-field': [ '1.0.0' ],
+13 silly audit   archiver: [ '5.3.2' ],
+13 silly audit   'archiver-utils': [ '2.1.0', '3.0.4' ],
+13 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+13 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+13 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+13 silly audit   async: [ '3.2.6' ],
+13 silly audit   'balanced-match': [ '1.0.2' ],
+13 silly audit   'base64-js': [ '1.5.1' ],
+13 silly audit   'big-integer': [ '1.6.52' ],
+13 silly audit   binary: [ '0.3.0' ],
+13 silly audit   bl: [ '4.1.0' ],
+13 silly audit   bluebird: [ '3.4.7' ],
+13 silly audit   'body-parser': [ '2.3.0' ],
+13 silly audit   'content-type': [ '2.1.0', '1.0.5' ],
+13 silly audit   'brace-expansion': [ '1.1.18', '2.1.4' ],
+13 silly audit   buffer: [ '5.7.1' ],
+13 silly audit   'buffer-crc32': [ '0.2.13' ],
+13 silly audit   'buffer-indexof-polyfill': [ '1.0.2' ],
+13 silly audit   buffers: [ '0.1.1' ],
+13 silly audit   busboy: [ '1.6.0' ],
+13 silly audit   bytes: [ '3.1.2' ],
+13 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+13 silly audit   'call-bound': [ '1.0.4' ],
+13 silly audit   chainsaw: [ '0.1.0' ],
+13 silly audit   'compress-commons': [ '4.1.2' ],
+13 silly audit   'concat-map': [ '0.0.1' ],
+13 silly audit   'content-disposition': [ '1.1.0' ],
+13 silly audit   cookie: [ '0.7.2' ],
+13 silly audit   'cookie-signature': [ '1.2.2' ],
+13 silly audit   'core-util-is': [ '1.0.3' ],
+13 silly audit   'crc-32': [ '1.2.2' ],
+13 silly audit   'crc32-stream': [ '4.0.3' ],
+13 silly audit   dayjs: [ '1.11.23' ],
+13 silly audit   debug: [ '4.4.3' ],
+13 silly audit   depd: [ '2.0.0' ],
+13 silly audit   'dunder-proto': [ '1.0.1' ],
+13 silly audit   duplexer2: [ '0.1.4' ],
+13 silly audit   'ee-first': [ '1.1.1' ],
+13 silly audit   encodeurl: [ '2.0.0' ],
+13 silly audit   'end-of-stream': [ '1.4.5' ],
+13 silly audit   'es-define-property': [ '1.0.1' ],
+13 silly audit   'es-errors': [ '1.3.0' ],
+13 silly audit   'es-object-atoms': [ '1.1.2' ],
+13 silly audit   'escape-html': [ '1.0.3' ],
+13 silly audit   etag: [ '1.8.1' ],
+13 silly audit   exceljs: [ '4.4.0' ],
+13 silly audit   express: [ '5.2.1' ],
+13 silly audit   'fast-csv': [ '4.3.6' ],
+13 silly audit   finalhandler: [ '2.1.1' ],
+13 silly audit   forwarded: [ '0.2.0' ],
+13 silly audit   fresh: [ '2.0.0' ],
+13 silly audit   'fs-constants': [ '1.0.0' ],
+13 silly audit   'fs.realpath': [ '1.0.0' ],
+13 silly audit   fstream: [ '1.0.12' ],
+13 silly audit   'function-bind': [ '1.1.2' ],
+13 silly audit   'get-intrinsic': [ '1.3.0' ],
+13 silly audit   'get-proto': [ '1.0.1' ],
+13 silly audit   glob: [ '7.2.3' ],
+13 silly audit   gopd: [ '1.2.0' ],
+13 silly audit   'graceful-fs': [ '4.2.11' ],
+13 silly audit   'has-symbols': [ '1.1.0' ],
+13 silly audit   hasown: [ '2.0.4' ],
+13 silly audit   'http-errors': [ '2.0.1' ],
+13 silly audit   https: [ '1.0.0' ],
+13 silly audit   'iconv-lite': [ '0.7.3' ],
+13 silly audit   ieee754: [ '1.2.1' ],
+13 silly audit   'image-size': [ '1.2.1' ],
+13 silly audit   immediate: [ '3.0.6' ],
+13 silly audit   inflight: [ '1.0.6' ],
+13 silly audit   inherits: [ '2.0.4' ],
+13 silly audit   'ipaddr.js': [ '1.9.1' ],
+13 silly audit   'is-promise': [ '4.0.0' ],
+13 silly audit   isarray: [ '1.0.0' ],
+13 silly audit   jszip: [ '3.10.2' ],
+13 silly audit   lazystream: [ '1.0.1' ],
+13 silly audit   lie: [ '3.3.0' ],
+13 silly audit   listenercount: [ '1.0.1' ],
+13 silly audit   'lodash.defaults': [ '4.2.0' ],
+13 silly audit   'lodash.difference': [ '4.5.0' ],
+13 silly audit   'lodash.escaperegexp': [ '4.1.2' ],
+13 silly audit   'lodash.flatten': [ '4.4.0' ],
+13 silly audit   'lodash.groupby': [ '4.6.0' ],
+13 silly audit   'lodash.isboolean': [ '3.0.3' ],
+13 silly audit   'lodash.isequal': [ '4.5.0' ],
+13 silly audit   'lodash.isfunction': [ '3.0.9' ],
+13 silly audit   'lodash.isnil': [ '4.0.0' ],
+13 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+13 silly audit   'lodash.isundefined': [ '3.0.1' ],
+13 silly audit   'lodash.union': [ '4.6.0' ],
+13 silly audit   'lodash.uniq': [ '4.5.0' ],
+13 silly audit   'math-intrinsics': [ '1.1.0' ],
+13 silly audit   'media-typer': [ '1.1.1', '0.3.0' ],
+13 silly audit   'merge-descriptors': [ '2.0.0' ],
+13 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+13 silly audit   'mime-types': [ '3.0.2', '2.1.35' ],
+13 silly audit   minimatch: [ '3.1.5', '5.1.9' ],
+13 silly audit   minimist: [ '1.2.8' ],
+13 silly audit   mkdirp: [ '0.5.6' ],
+13 silly audit   ms: [ '2.1.3' ],
+13 silly audit   multer: [ '2.4.0' ],
+13 silly audit   'type-is': [ '1.6.18', '2.1.0' ],
+13 silly audit   negotiator: [ '1.1.0' ],
+13 silly audit   'normalize-path': [ '3.0.0' ],
+13 silly audit   'object-inspect': [ '1.13.4' ],
+13 silly audit   'on-finished': [ '2.4.1' ],
+13 silly audit   once: [ '1.4.0' ],
+13 silly audit   pako: [ '1.0.11' ],
+13 silly audit   parseurl: [ '1.3.3' ],
+13 silly audit   'path-is-absolute': [ '1.0.1' ],
+13 silly audit   'path-to-regexp': [ '8.4.2' ],
+13 silly audit   pptxgenjs: [ '4.0.1' ],
+13 silly audit   'process-nextick-args': [ '2.0.1' ],
+13 silly audit   'proxy-addr': [ '2.0.7' ],
+13 silly audit   qs: [ '6.16.0' ],
+13 silly audit   queue: [ '6.0.2' ],
+13 silly audit   'range-parser': [ '1.3.0' ],
+13 silly audit   'raw-body': [ '3.0.2' ],
+13 silly audit   'readdir-glob': [ '1.1.3' ],
+13 silly audit   rimraf: [ '2.7.1' ],
+13 silly audit   router: [ '2.2.0' ],
+13 silly audit   'safer-buffer': [ '2.1.2' ],
+13 silly audit   saxes: [ '5.0.1' ],
+13 silly audit   send: [ '1.2.1' ],
+13 silly audit   'serve-static': [ '2.2.1' ],
+13 silly audit   setimmediate: [ '1.0.5' ],
+13 silly audit   setprototypeof: [ '1.2.0' ],
+13 silly audit   'side-channel': [ '1.1.1' ],
+13 silly audit   'side-channel-list': [ '1.0.1' ],
+13 silly audit   'side-channel-map': [ '1.0.1' ],
+13 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+13 silly audit   statuses: [ '2.0.2' ],
+13 silly audit   streamsearch: [ '1.1.0' ],
+13 silly audit   'tar-stream': [ '2.2.0' ],
+13 silly audit   tmp: [ '0.2.7' ],
+13 silly audit   toidentifier: [ '1.0.1' ],
+13 silly audit   traverse: [ '0.3.9' ],
+13 silly audit   'undici-types': [ '6.21.0' ],
+13 silly audit   unpipe: [ '1.0.0' ],
+13 silly audit   unzipper: [ '0.10.14' ],
+13 silly audit   'util-deprecate': [ '1.0.2' ],
+13 silly audit   uuid: [ '8.3.2' ],
+13 silly audit   vary: [ '1.1.2' ],
+13 silly audit   wrappy: [ '1.0.2' ],
+13 silly audit   xmlchars: [ '2.2.0' ],
+13 silly audit   'zip-stream': [ '4.1.1' ]
+13 silly audit }
+14 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 203ms
+15 silly audit report {
+15 silly audit report   'image-size': [
+15 silly audit report     {
+15 silly audit report       id: 1138808,
+15 silly audit report       url: 'https://github.com/advisories/GHSA-w3rx-r6r6-pgpr',
+15 silly audit report       title: 'image-size: ICNS parser allows denial of service through an infinite loop',
+15 silly audit report       severity: 'high',
+15 silly audit report       vulnerable_versions: '<=2.0.2',
+15 silly audit report       cwe: [Array],
+15 silly audit report       cvss: [Object]
+15 silly audit report     },
+15 silly audit report     {
+15 silly audit report       id: 1138809,
+15 silly audit report       url: 'https://github.com/advisories/GHSA-5p2g-fcmc-qvqq',
+15 silly audit report       title: 'image-size: JXL and HEIF parsers allow denial of service through infinite loops',
+15 silly audit report       severity: 'high',
+15 silly audit report       vulnerable_versions: '<=2.0.2',
+15 silly audit report       cwe: [Array],
+15 silly audit report       cvss: [Object]
+15 silly audit report     }
+15 silly audit report   ],
+15 silly audit report   uuid: [
+15 silly audit report     {
+15 silly audit report       id: 1119441,
+15 silly audit report       url: 'https://github.com/advisories/GHSA-w5hq-g745-h8pq',
+15 silly audit report       title: 'uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided',
+15 silly audit report       severity: 'moderate',
+15 silly audit report       vulnerable_versions: '<11.1.1',
+15 silly audit report       cwe: [Array],
+15 silly audit report       cvss: [Object]
+15 silly audit report     }
+15 silly audit report   ]
+15 silly audit report }
+16 silly packumentCache corgi:https://registry.npmjs.org/image-size cache-miss
+17 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+18 http cache https://registry.npmjs.org/image-size 26ms (cache hit)
+19 silly packumentCache corgi:https://registry.npmjs.org/image-size set size:76086 disposed:false
+20 http cache https://registry.npmjs.org/uuid 28ms (cache hit)
+21 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:84321 disposed:false
+22 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs cache-miss
+23 http cache https://registry.npmjs.org/pptxgenjs 9ms (cache hit)
+24 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs set size:72224 disposed:false
+25 silly packumentCache corgi:https://registry.npmjs.org/exceljs cache-miss
+26 http cache https://registry.npmjs.org/exceljs 7ms (cache hit)
+27 silly packumentCache corgi:https://registry.npmjs.org/exceljs set size:244198 disposed:false
+28 verbose cwd C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio
+29 verbose os Windows_NT 10.0.19045
+30 verbose node v24.18.0
+31 verbose npm  v11.16.0
+32 verbose exit 1
+33 verbose code 1

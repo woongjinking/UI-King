@@ -1,0 +1,256 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio\.npmrc
+5 silly config load:file:C:\Users\USER\.npmrc
+6 silly config load:file:C:\Users\USER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install html2canvas
+8 verbose argv "install" "html2canvas" "--cache" "../../work/npm-cache" "--fetch-retries" "0" "--fetch-timeout" "20000"
+9 verbose logfile logs-max:10 dir:C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T13_25_07_144Z-
+10 verbose logfile C:\Users\USER\Documents\Codex\2026-09-14\d\work\npm-cache\_logs\2026-09-14T13_25_07_144Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest html2canvas@*
+15 silly packumentCache full:https://registry.npmjs.org/html2canvas cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/html2canvas 283ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/html2canvas set size:undefined disposed:false
+18 silly placeDep ROOT html2canvas@1.4.1 OK for: screen-studio@1.0.0 want: *
+19 silly fetch manifest css-line-break@^2.1.0
+20 silly packumentCache full:https://registry.npmjs.org/css-line-break cache-miss
+21 silly fetch manifest text-segmentation@^1.0.3
+22 silly packumentCache full:https://registry.npmjs.org/text-segmentation cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/text-segmentation 31ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/text-segmentation set size:undefined disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/css-line-break 67ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/css-line-break set size:undefined disposed:false
+27 silly placeDep ROOT css-line-break@2.1.0 OK for: html2canvas@1.4.1 want: ^2.1.0
+28 silly placeDep ROOT text-segmentation@1.0.3 OK for: html2canvas@1.4.1 want: ^1.0.3
+29 silly fetch manifest utrie@^1.0.2
+30 silly packumentCache full:https://registry.npmjs.org/utrie cache-miss
+31 silly fetch manifest utrie@^1.0.2
+32 silly packumentCache full:https://registry.npmjs.org/utrie cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/utrie 27ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/utrie set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/utrie 30ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/utrie set size:undefined disposed:false
+37 silly placeDep ROOT utrie@1.0.2 OK for: css-line-break@2.1.0 want: ^1.0.2
+38 silly fetch manifest base64-arraybuffer@^1.0.2
+39 silly packumentCache full:https://registry.npmjs.org/base64-arraybuffer cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/base64-arraybuffer 22ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/base64-arraybuffer set size:undefined disposed:false
+42 silly placeDep ROOT base64-arraybuffer@1.0.2 OK for: utrie@1.0.2 want: ^1.0.2
+43 silly reify moves {}
+44 silly audit bulk request {
+44 silly audit   '@fast-csv/format': [ '4.3.5' ],
+44 silly audit   '@fast-csv/parse': [ '4.3.6' ],
+44 silly audit   '@types/node': [ '14.18.63', '22.20.2' ],
+44 silly audit   accepts: [ '2.0.0' ],
+44 silly audit   'append-field': [ '1.0.0' ],
+44 silly audit   archiver: [ '5.3.2' ],
+44 silly audit   'archiver-utils': [ '2.1.0', '3.0.4' ],
+44 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+44 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+44 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+44 silly audit   async: [ '3.2.6' ],
+44 silly audit   'balanced-match': [ '1.0.2' ],
+44 silly audit   'base64-js': [ '1.5.1' ],
+44 silly audit   'big-integer': [ '1.6.52' ],
+44 silly audit   binary: [ '0.3.0' ],
+44 silly audit   bl: [ '4.1.0' ],
+44 silly audit   bluebird: [ '3.4.7' ],
+44 silly audit   'body-parser': [ '2.3.0' ],
+44 silly audit   'content-type': [ '2.1.0', '1.0.5' ],
+44 silly audit   'brace-expansion': [ '1.1.18', '2.1.4' ],
+44 silly audit   buffer: [ '5.7.1' ],
+44 silly audit   'buffer-crc32': [ '0.2.13' ],
+44 silly audit   'buffer-indexof-polyfill': [ '1.0.2' ],
+44 silly audit   buffers: [ '0.1.1' ],
+44 silly audit   busboy: [ '1.6.0' ],
+44 silly audit   bytes: [ '3.1.2' ],
+44 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+44 silly audit   'call-bound': [ '1.0.4' ],
+44 silly audit   chainsaw: [ '0.1.0' ],
+44 silly audit   'compress-commons': [ '4.1.2' ],
+44 silly audit   'concat-map': [ '0.0.1' ],
+44 silly audit   'content-disposition': [ '1.1.0' ],
+44 silly audit   cookie: [ '0.7.2' ],
+44 silly audit   'cookie-signature': [ '1.2.2' ],
+44 silly audit   'core-util-is': [ '1.0.3' ],
+44 silly audit   'crc-32': [ '1.2.2' ],
+44 silly audit   'crc32-stream': [ '4.0.3' ],
+44 silly audit   dayjs: [ '1.11.23' ],
+44 silly audit   debug: [ '4.4.3' ],
+44 silly audit   depd: [ '2.0.0' ],
+44 silly audit   'dunder-proto': [ '1.0.1' ],
+44 silly audit   duplexer2: [ '0.1.4' ],
+44 silly audit   'ee-first': [ '1.1.1' ],
+44 silly audit   encodeurl: [ '2.0.0' ],
+44 silly audit   'end-of-stream': [ '1.4.5' ],
+44 silly audit   'es-define-property': [ '1.0.1' ],
+44 silly audit   'es-errors': [ '1.3.0' ],
+44 silly audit   'es-object-atoms': [ '1.1.2' ],
+44 silly audit   'escape-html': [ '1.0.3' ],
+44 silly audit   etag: [ '1.8.1' ],
+44 silly audit   exceljs: [ '4.4.0' ],
+44 silly audit   express: [ '5.2.1' ],
+44 silly audit   'fast-csv': [ '4.3.6' ],
+44 silly audit   finalhandler: [ '2.1.1' ],
+44 silly audit   forwarded: [ '0.2.0' ],
+44 silly audit   fresh: [ '2.0.0' ],
+44 silly audit   'fs-constants': [ '1.0.0' ],
+44 silly audit   'fs.realpath': [ '1.0.0' ],
+44 silly audit   fstream: [ '1.0.12' ],
+44 silly audit   'function-bind': [ '1.1.2' ],
+44 silly audit   'get-intrinsic': [ '1.3.0' ],
+44 silly audit   'get-proto': [ '1.0.1' ],
+44 silly audit   glob: [ '7.2.3' ],
+44 silly audit   gopd: [ '1.2.0' ],
+44 silly audit   'graceful-fs': [ '4.2.11' ],
+44 silly audit   'has-symbols': [ '1.1.0' ],
+44 silly audit   hasown: [ '2.0.4' ],
+44 silly audit   'http-errors': [ '2.0.1' ],
+44 silly audit   https: [ '1.0.0' ],
+44 silly audit   'iconv-lite': [ '0.7.3' ],
+44 silly audit   ieee754: [ '1.2.1' ],
+44 silly audit   'image-size': [ '1.2.1' ],
+44 silly audit   immediate: [ '3.0.6' ],
+44 silly audit   inflight: [ '1.0.6' ],
+44 silly audit   inherits: [ '2.0.4' ],
+44 silly audit   'ipaddr.js': [ '1.9.1' ],
+44 silly audit   'is-promise': [ '4.0.0' ],
+44 silly audit   isarray: [ '1.0.0' ],
+44 silly audit   jszip: [ '3.10.2' ],
+44 silly audit   lazystream: [ '1.0.1' ],
+44 silly audit   lie: [ '3.3.0' ],
+44 silly audit   listenercount: [ '1.0.1' ],
+44 silly audit   'lodash.defaults': [ '4.2.0' ],
+44 silly audit   'lodash.difference': [ '4.5.0' ],
+44 silly audit   'lodash.escaperegexp': [ '4.1.2' ],
+44 silly audit   'lodash.flatten': [ '4.4.0' ],
+44 silly audit   'lodash.groupby': [ '4.6.0' ],
+44 silly audit   'lodash.isboolean': [ '3.0.3' ],
+44 silly audit   'lodash.isequal': [ '4.5.0' ],
+44 silly audit   'lodash.isfunction': [ '3.0.9' ],
+44 silly audit   'lodash.isnil': [ '4.0.0' ],
+44 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+44 silly audit   'lodash.isundefined': [ '3.0.1' ],
+44 silly audit   'lodash.union': [ '4.6.0' ],
+44 silly audit   'lodash.uniq': [ '4.5.0' ],
+44 silly audit   'math-intrinsics': [ '1.1.0' ],
+44 silly audit   'media-typer': [ '1.1.1', '0.3.0' ],
+44 silly audit   'merge-descriptors': [ '2.0.0' ],
+44 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+44 silly audit   'mime-types': [ '3.0.2', '2.1.35' ],
+44 silly audit   minimatch: [ '3.1.5', '5.1.9' ],
+44 silly audit   minimist: [ '1.2.8' ],
+44 silly audit   mkdirp: [ '0.5.6' ],
+44 silly audit   ms: [ '2.1.3' ],
+44 silly audit   multer: [ '2.4.0' ],
+44 silly audit   'type-is': [ '1.6.18', '2.1.0' ],
+44 silly audit   negotiator: [ '1.1.0' ],
+44 silly audit   'normalize-path': [ '3.0.0' ],
+44 silly audit   'object-inspect': [ '1.13.4' ],
+44 silly audit   'on-finished': [ '2.4.1' ],
+44 silly audit   once: [ '1.4.0' ],
+44 silly audit   pako: [ '1.0.11' ],
+44 silly audit   parseurl: [ '1.3.3' ],
+44 silly audit   'path-is-absolute': [ '1.0.1' ],
+44 silly audit   'path-to-regexp': [ '8.4.2' ],
+44 silly audit   pptxgenjs: [ '4.0.1' ],
+44 silly audit   'process-nextick-args': [ '2.0.1' ],
+44 silly audit   'proxy-addr': [ '2.0.7' ],
+44 silly audit   qs: [ '6.16.0' ],
+44 silly audit   queue: [ '6.0.2' ],
+44 silly audit   'range-parser': [ '1.3.0' ],
+44 silly audit   'raw-body': [ '3.0.2' ],
+44 silly audit   'readdir-glob': [ '1.1.3' ],
+44 silly audit   rimraf: [ '2.7.1' ],
+44 silly audit   router: [ '2.2.0' ],
+44 silly audit   'safer-buffer': [ '2.1.2' ],
+44 silly audit   saxes: [ '5.0.1' ],
+44 silly audit   send: [ '1.2.1' ],
+44 silly audit   'serve-static': [ '2.2.1' ],
+44 silly audit   setimmediate: [ '1.0.5' ],
+44 silly audit   setprototypeof: [ '1.2.0' ],
+44 silly audit   'side-channel': [ '1.1.1' ],
+44 silly audit   'side-channel-list': [ '1.0.1' ],
+44 silly audit   'side-channel-map': [ '1.0.1' ],
+44 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+44 silly audit   statuses: [ '2.0.2' ],
+44 silly audit   streamsearch: [ '1.1.0' ],
+44 silly audit   'tar-stream': [ '2.2.0' ],
+44 silly audit   tmp: [ '0.2.7' ],
+44 silly audit   toidentifier: [ '1.0.1' ],
+44 silly audit   traverse: [ '0.3.9' ],
+44 silly audit   'undici-types': [ '6.21.0' ],
+44 silly audit   unpipe: [ '1.0.0' ],
+44 silly audit   unzipper: [ '0.10.14' ],
+44 silly audit   'util-deprecate': [ '1.0.2' ],
+44 silly audit   uuid: [ '11.1.1' ],
+44 silly audit   vary: [ '1.1.2' ],
+44 silly audit   wrappy: [ '1.0.2' ],
+44 silly audit   xmlchars: [ '2.2.0' ],
+44 silly audit   'zip-stream': [ '4.1.1' ],
+44 silly audit   html2canvas: [ '1.4.1' ],
+44 silly audit   'css-line-break': [ '2.1.0' ],
+44 silly audit   'text-segmentation': [ '1.0.3' ],
+44 silly audit   utrie: [ '1.0.2' ],
+44 silly audit   'base64-arraybuffer': [ '1.0.2' ]
+44 silly audit }
+45 http cache utrie@https://registry.npmjs.org/utrie/-/utrie-1.0.2.tgz 0ms (cache hit)
+46 http cache base64-arraybuffer@https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz 0ms (cache hit)
+47 http cache css-line-break@https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz 0ms (cache hit)
+48 http cache text-segmentation@https://registry.npmjs.org/text-segmentation/-/text-segmentation-1.0.3.tgz 0ms (cache hit)
+49 silly tarball no local data for utrie@https://registry.npmjs.org/utrie/-/utrie-1.0.2.tgz. Extracting by manifest.
+50 silly tarball no local data for base64-arraybuffer@https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz. Extracting by manifest.
+51 http cache html2canvas@https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz 0ms (cache hit)
+52 silly tarball no local data for css-line-break@https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz. Extracting by manifest.
+53 silly tarball no local data for text-segmentation@https://registry.npmjs.org/text-segmentation/-/text-segmentation-1.0.3.tgz. Extracting by manifest.
+54 silly tarball no local data for html2canvas@https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz. Extracting by manifest.
+55 http fetch GET 200 https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.2.tgz 127ms (cache miss)
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 166ms
+57 silly audit report {
+57 silly audit report   'image-size': [
+57 silly audit report     {
+57 silly audit report       id: 1138808,
+57 silly audit report       url: 'https://github.com/advisories/GHSA-w3rx-r6r6-pgpr',
+57 silly audit report       title: 'image-size: ICNS parser allows denial of service through an infinite loop',
+57 silly audit report       severity: 'high',
+57 silly audit report       vulnerable_versions: '<=2.0.2',
+57 silly audit report       cwe: [Array],
+57 silly audit report       cvss: [Object]
+57 silly audit report     },
+57 silly audit report     {
+57 silly audit report       id: 1138809,
+57 silly audit report       url: 'https://github.com/advisories/GHSA-5p2g-fcmc-qvqq',
+57 silly audit report       title: 'image-size: JXL and HEIF parsers allow denial of service through infinite loops',
+57 silly audit report       severity: 'high',
+57 silly audit report       vulnerable_versions: '<=2.0.2',
+57 silly audit report       cwe: [Array],
+57 silly audit report       cvss: [Object]
+57 silly audit report     }
+57 silly audit report   ]
+57 silly audit report }
+58 silly packumentCache corgi:https://registry.npmjs.org/image-size cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/utrie/-/utrie-1.0.2.tgz 168ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/text-segmentation/-/text-segmentation-1.0.3.tgz 179ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/css-line-break/-/css-line-break-2.1.0.tgz 188ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/image-size 38ms (cache revalidated)
+63 silly packumentCache corgi:https://registry.npmjs.org/image-size set size:76086 disposed:false
+64 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/pptxgenjs 21ms (cache revalidated)
+66 silly packumentCache corgi:https://registry.npmjs.org/pptxgenjs set size:72224 disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz 762ms (cache miss)
+68 silly ADD node_modules/base64-arraybuffer
+69 silly ADD node_modules/utrie
+70 silly ADD node_modules/text-segmentation
+71 silly ADD node_modules/css-line-break
+72 silly ADD node_modules/html2canvas
+73 verbose cwd C:\Users\USER\Documents\Codex\2026-09-14\d\outputs\screen-studio
+74 verbose os Windows_NT 10.0.19045
+75 verbose node v24.18.0
+76 verbose npm  v11.16.0
+77 verbose exit 0
+78 info ok
